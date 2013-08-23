@@ -4,7 +4,7 @@
 
 ## How to use
 
-* Install the [Chrome extension](https://chrome.google.com/webstore/detail/njhooapdhhjehkemlbobcdenmdbiooml),
+* Install the [Chrome extension](https://chrome.google.com/webstore/detail/jenkins-terminal-colors/njhooapdhhjehkemlbobcdenmdbiooml),
 * Just go on a *Console* panel on Jenkins instance,
 * Use Jenkins [AnsiColor plugin](https://wiki.jenkins-ci.org/display/JENKINS/AnsiColor+Plugin) for better experience.
 
