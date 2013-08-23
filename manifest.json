@@ -1,0 +1,16 @@
+{
+  "name": "Jenkins Terminal Colors",
+  "version": "0.0.1",
+  "description": "Provides standard terminal colors in the 'Console' panel of Jenkins",
+  "manifest_version": 2,
+  "icons": {
+    "16": "img/icon16.png",
+    "48": "img/icon48.png",
+    "128": "img/icon128.png"
+  },
+  "content_scripts": [{
+    "matches": ["*://*/job/*/*/console", "*://*/view/*/job/*/*/console"],
+    "run_at": "document_end",
+    "css": ["css/jenkins-terminal-colors.css"]
+  }]
+}
