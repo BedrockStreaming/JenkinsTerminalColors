@@ -13,11 +13,17 @@
       "*://*/job/*/*/console",
       "*://*/view/*/job/*/*/console",
       "*://*/job/*/*/consoleFull",
-      "*://*/view/*/job/*/*/consoleFull",
+      "*://*/view/*/job/*/*/consoleFull"
+    ],
+    "run_at": "document_end",
+    "css": ["css/jenkins-terminal-colors.css"]
+  },
+  {
+    "matches": [
       "*://*/job/*/*/consoleText",
       "*://*/view/*/job/*/*/consoleText"
     ],
     "run_at": "document_end",
-    "css": ["css/jenkins-terminal-colors.css"]
+    "css": ["css/jenkins-terminal-colors-text.css"]
   }]
 }
