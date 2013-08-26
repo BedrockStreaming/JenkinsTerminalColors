@@ -1,6 +1,6 @@
 {
   "name": "Jenkins Terminal Colors",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Provides standard terminal colors in the 'Console' panel of Jenkins",
   "manifest_version": 2,
   "icons": {
@@ -9,7 +9,14 @@
     "128": "img/icon128.png"
   },
   "content_scripts": [{
-    "matches": ["*://*/job/*/*/console", "*://*/view/*/job/*/*/console", "*://*/job/*/*/consoleFull", "*://*/view/*/job/*/*/consoleFull"],
+    "matches": [
+      "*://*/job/*/*/console",
+      "*://*/view/*/job/*/*/console",
+      "*://*/job/*/*/consoleFull",
+      "*://*/view/*/job/*/*/consoleFull",
+      "*://*/job/*/*/consoleText",
+      "*://*/view/*/job/*/*/consoleText"
+    ],
     "run_at": "document_end",
     "css": ["css/jenkins-terminal-colors.css"]
   }]
