@@ -9,7 +9,7 @@
     "128": "img/icon128.png"
   },
   "content_scripts": [{
-    "matches": ["*://*/job/*/*/console", "*://*/view/*/job/*/*/console"],
+    "matches": ["*://*/job/*/*/console", "*://*/view/*/job/*/*/console", "*://*/job/*/*/consoleFull", "*://*/view/*/job/*/*/consoleFull"],
     "run_at": "document_end",
     "css": ["css/jenkins-terminal-colors.css"]
   }]
