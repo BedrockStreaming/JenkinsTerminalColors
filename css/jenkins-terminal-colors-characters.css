@@ -1,0 +1,89 @@
+/*
+Colors from (dark) Solarized : http://ethanschoonover.com/solarized
+*/
+
+/* Characters */
+
+span.jtc-1 { /* Bold Characters */
+  font-weight: bold;
+}
+
+span.jtc-4 { /* Underlined Characters */
+  text-decoration: underline;
+}
+
+span.jtc-5 { /* Blinking Characters */
+  text-decoration: blink;
+}
+
+span.jtc-7 { /* Reverse video Characters */
+  /* Not yet implemented */
+}
+
+/* Foreground colors */
+
+span.jtc-30, span.jtc-30 a { /* Black */
+  color: #002b36;
+}
+
+span.jtc-31, span.jtc-31 a { /* Red */
+  color: #dc322f;
+}
+
+span.jtc-32, span.jtc-32 a { /* Green */
+  color: #859900;
+}
+
+span.jtc-33, span.jtc-33 a { /* Yellow */
+  color: #b58900;
+}
+
+span.jtc-34, span.jtc-34 a { /* Blue */
+  color: #268bd2;
+}
+
+span.jtc-35, span.jtc-35 a { /* Magenta */
+  color: #d33682;
+}
+
+span.jtc-36, span.jtc-36 a { /* Cyan */
+  color: #2aa198;
+}
+
+span.jtc-37, span.jtc-37 a { /* White */
+  color: #eee8d5;
+}
+
+/* Background colors */
+
+span.jtc-40 { /* Black */
+  background-color: #002b36;
+}
+
+span.jtc-41 { /* Red (Orange) */
+  background-color: #cb4b16;
+}
+
+span.jtc-42 { /* Green */
+  background-color: #859900;
+}
+
+span.jtc-43 { /* Yellow */
+  background-color: #b58900;
+}
+
+span.jtc-44 { /* Blue */
+  background-color: #268bd2;
+}
+
+span.jtc-45 { /* Magenta */
+  background-color: #d33682;
+}
+
+span.jtc-46 { /* Cyan */
+  background-color: #2aa198;
+}
+
+span.jtc-47 { /* White */
+  background-color: #eee8d5;
+}

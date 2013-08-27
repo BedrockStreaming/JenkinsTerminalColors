@@ -1,18 +1,15 @@
 # Jenkins Terminal Colors
 
-**JenkinsTerminalColors** is a lightweight Chrome extension that provides standard terminal color in the *Console* panel of Jenkins.
+**JenkinsTerminalColors** is a very lightweight Chrome extension that provides terminal colors in all *console* panels of Jenkins.
+It uses [black Solarized](http://ethanschoonover.com/solarized) theme.
 
 ## How to use
 
 * Install the [Chrome extension](https://chrome.google.com/webstore/detail/jenkins-terminal-colors/njhooapdhhjehkemlbobcdenmdbiooml),
-* Just go on a *Console* panel on Jenkins instance,
-* Use Jenkins [AnsiColor plugin](https://wiki.jenkins-ci.org/display/JENKINS/AnsiColor+Plugin) for better experience.
+* Just go on any *console* panel on Jenkins instance,
+* You don't need any Jenkins plugin.
 
-## What is changed
-
-* Background color and text color fits standard terminal color (more specificly the Sublime Text 2 default theme [Pastels on Dark](https://github.com/n00ge/Sublime-Text-2-Packages/blob/master/Color%20Scheme%20-%20Default/Pastels%20on%20Dark.tmTheme)).
-
-![](http://img153.imageshack.us/img153/9228/1xpl.png)
+![](http://img853.imageshack.us/img853/7215/f20z.png)
 
 ## How to install for dev
 
