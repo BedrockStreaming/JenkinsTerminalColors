@@ -8,7 +8,18 @@ $(document).ready(function() {
         return text;
     }
 
-    setInterval(function() {
-        $('pre').get(0).innerHTML = transformText($('pre').get(0).innerHTML);
-    }, 200);
+    function reformatExecute()
+        var pre_element = $('pre').get(0);
+
+        var original_inner_html = pre_element.innerHTML;
+        var reformated_inner_html = transformText(original_inner_html);
+
+        // Only update the content if it actually changed.
+        // The transformations in `transformText` will increase the text length if any happened.
+        var text_changed = (original_inner_html.length != reformated_inner_html.length);
+        if (text_changed) pre_element.innerHTML = reformated_inner_html;
+
+        pre_element = original_inner_html = reformated_inner_html = text_changed = undefined;
+    }
+    setInterval(reformatExecute, 200);
 });
