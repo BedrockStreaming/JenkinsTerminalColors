@@ -17,9 +17,9 @@ $(document).ready(function() {
         // Only update the content if it actually changed.
         // The transformations in `transformText` will increase the text length if any happened.
         var text_changed = (original_inner_html.length != reformated_inner_html.length);
-        if (text_changed) pre_element.innerHTML = reformated_inner_html;
-
-        pre_element = original_inner_html = reformated_inner_html = text_changed = undefined;
+        if (text_changed){
+            pre_element.innerHTML = reformated_inner_html;
+        }
     }
     setInterval(reformatExecute, 200);
 });
