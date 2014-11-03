@@ -8,7 +8,7 @@ $(document).ready(function() {
         return text;
     }
 
-    function reformatExecute()
+    function reformatExecute() {
         var pre_element = $('pre').get(0);
 
         var original_inner_html = pre_element.innerHTML;
@@ -17,7 +17,7 @@ $(document).ready(function() {
         // Only update the content if it actually changed.
         // The transformations in `transformText` will increase the text length if any happened.
         var text_changed = (original_inner_html.length != reformated_inner_html.length);
-        if (text_changed){
+        if (text_changed) {
             pre_element.innerHTML = reformated_inner_html;
         }
     }
