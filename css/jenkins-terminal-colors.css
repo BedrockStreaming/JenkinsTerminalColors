@@ -2,7 +2,13 @@
 Colors from (dark) Solarized : http://ethanschoonover.com/solarized
 */
 
-#main-table #main-panel {
+#main-table #main-panel,
+#main-panel #main-panel-content {
   background-color: #002b36;
   color: #839496;
+}
+
+#main-panel #main-panel-content {
+  margin: 0;
+  padding: 15px;
 }
