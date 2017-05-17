@@ -5,4 +5,5 @@ Colors from (dark) Solarized : http://ethanschoonover.com/solarized
 pre.console-output {
   background-color: #002b36;
   color: #839496;
+  padding: 0 1.2em;
 }
