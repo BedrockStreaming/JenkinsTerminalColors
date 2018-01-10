@@ -13,8 +13,10 @@
     "matches": [
       "*://*/job/*/*/console",
       "*://*/view/*/job/*/*/console",
+      "*://*/*/my-views/view/*/job/*/*/console",
       "*://*/job/*/*/consoleFull",
-      "*://*/view/*/job/*/*/consoleFull"
+      "*://*/view/*/job/*/*/consoleFull",
+      "*://*/*/my-views/view/*/job/*/*/consoleFull"
     ],
     "run_at": "document_end",
     "css": ["css/jenkins-terminal-colors.css", "css/jenkins-terminal-colors-characters.css"],
@@ -23,6 +25,7 @@
   {
     "matches": [
       "*://*/job/*/*/consoleText",
+      "*://*/*/my-views/view/*/job/*/*/consoleText",
       "*://*/view/*/job/*/*/consoleText"
     ],
     "run_at": "document_end",
